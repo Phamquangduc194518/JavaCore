@@ -1,0 +1,23 @@
+== là so sánh địa chỉ
+String có 2 cách khai báo : String a="" và String b= new String("");
+cách 2 là cách khai báo đối tượng tạo ra 1 ô nhớ mới để lưu
+String là 1 đối tượng vì nó có thuộc tính và phương thức
+--------------------------
+
+Method
+- boolean, equals(String s)  boolean í= s1.equals(s2)
+- int length(): số lượng phần tử trong chuỗi
+- boolean contains( String s): chuỗi s có chưa cụm từ trong String hay ko??
+- char charArt(int index): lấy ra kí tự tại vị trí index.
+- int indexof( char c): lấy ra vị trí kí tự c trong chuỗi; ko có sec trả về -1;
+               String : ---------
+- String subString( int start, int end): lấy chuỗi từ start đến end;
+-----------------------------------------------------------------------------------
+
+-String là đối tượng Immutable( bất biến). Khi tạo ra 1 đối tượng String thì không thể thay đổi giá trị
+của String đã được gán;
+
+- tất cat thuộc tính là final thì đối tượng đó là Immutable;
+
+- char = int 2 byte;
+- muốn đổi từ kí tự sang số thì '5'-'0'=5. vì '5' trong askii =53; '0' trong askii =48

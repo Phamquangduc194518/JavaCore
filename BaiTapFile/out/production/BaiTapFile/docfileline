@@ -1,0 +1,27 @@
+FileInputStream fileInputStream = null;
+        BufferedReader bufferedReader = null;
+        fileInputStream = new FileInputStream(path);
+        bufferedReader = new BufferedReader(new InputStreamReader(fileInputStream));
+        String line = bufferedReader.readLine();
+        while(line != null){
+            System.out.println(line);
+            line = bufferedReader.readLine();
+        }
+        fileInputStream.close();
+        bufferedReader.close();
+        --------------------------------------------------------------------------
+
+        File file = new File(path);
+                    DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+                    DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+                    Document xmlDocument = dBuilder.parse(file);
+                    Element root = xmlDocument.getDocumentElement();// lấy phần tử gốc
+                    NodeList list = xmlDocument.getElementsByTagName("firstname");
+                    for (int i =0; i< list.getLength(); i++){
+                    String name = list.item(i).getTextContent();
+                        System.out.println(name);}
+        //            String name = xmlDocument.getElementsByTagName("firstname").item(0).getTextContent();
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }

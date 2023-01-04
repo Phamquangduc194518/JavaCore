@@ -1,0 +1,11 @@
+TT 	Mã định danh 	Họ và tên 	            Ngày sinh 	Giới tính
+2 	0116701758  	Nguyễn Ngọc Trâm Anh 	27/11/2006 	    Nữ
+3 	0133530105  	Phạm Việt Anh 	        20/10/2006 	    Nam
+4 	3616460199  	Bùi Thị Quỳnh Anh 	    09/01/2006 	    Nữ
+5 	1734705112  	Vũ Đức Anh 	            15/08/2006 	    Nam
+1 	0149107377  	Lều Ngọc An 	        10/06/2006 	    Nam
+6 	0149107460  	Nguyễn Phùng Linh Chi 	05/08/2006 	    Nữ
+7 	0116989583  	Dương Mỹ Dung 	        29/08/2006 	    Nữ
+8 	0150499677  	Nguyễn Mạnh Duy 	    16/03/2006 	    Nam
+9 	0116479556  	Phạm Phương Duy 	    10/04/2006 	    Nam
+10 	0133058338  	Nguyễn Thùy Dương 	    29/04/2006 	    Nữ

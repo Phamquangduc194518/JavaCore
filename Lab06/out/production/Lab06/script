@@ -1,0 +1,17 @@
+-stream()??
+-Exception?( là lỗi + lỗi compile
+                    + lỗi number format exception
+                    +v..v
+
+ - try catch: xử lý ngoại lệ.
+ Try{
+ đoạn code nghi ngoại lê
+ }catch(ngoại lệ){
+ xử lú ngoại lệ
+ }
+----------------------------------------
+- file??( file trong java có thể là file hoặc 1 folder)
+- quan trọng nhất của file là biết đường dẫn path
+-isfile: đường dẫn có là file ko hay là folder
+-exists: kiểm tra file có tồn tại ko
+-list và listfile: listfile trả về mảng file, list trả về đường dẫn vào các file con

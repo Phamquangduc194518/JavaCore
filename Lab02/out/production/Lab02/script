@@ -1,0 +1,4 @@
+shift+F6 đổi 1 từ ở tất cả các class
+buổi 2: các phép toán trong ngôn ngữ lập trình
+++a là cộng xong rồi tăng( a+ ++a) với a =5 thì sau khi a+a =10 rồi thì tăng lên 11
+a++ là sau khi thực hiện xong phép toán mới tăng a ++a + a++ = 17 với a sau cùng =7;
