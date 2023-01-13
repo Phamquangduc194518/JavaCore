@@ -1,0 +1,31 @@
+- dùng để đọc và ghi file( chỉ file text)
+- đọc ngẫu nhiên 1 vị trí nào đó trong file bở khả ăng di chuyển con trỏ đọc
+- file ảnh, media không sử dụng RandomAsscessFile
+- seek: dùng để đưa con trỏ file đến vị trí bất kì.
+
+-------------------------------------------------------------------------------------
+
+-URL connection
+- code tải ảnh từ java:
+            int index = link.lastIndexOf("/")+1;
+            String name = link.substring(index);
+            URL url = new URL(link); // tạo đối tượng url
+            URLConnection conn = url.openConnection();// openConnection: gọi đến cái trang của đường dẫn url
+            int total = conn.getContentLength();
+            String typeFile = conn.getContentType();
+            byte[] b = new byte[1024];
+            OutputStream out = new FileOutputStream(name);
+            InputStream in = conn.getInputStream();
+            int le = in.read(b);
+            int current = le;
+            while (le > -1){
+                out.write(b, 0, le);
+                le = in.read(b);
+                System.out.println("percent: " +(current * 100/total));
+                current+=le;
+            }
+            in.close();
+            out.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }

@@ -1,8 +1,7 @@
 ﻿<new>
  <item>
  <title>Loạn giá xăng vì Bộ trưởng muốn giữ ‘chữ tín’</title>
- <description><![CDATA[Ngày 21/1, điều hành xăng thay
-  đổi liên tục, từ tăng thuế kịch trần rồi sang hai phương án giảm giá và việc tăng thuế cũng đình lại.<br /><img src="http://imgs.vietnamnet.vn/Images/vnn/2015/01/21/18/20150121182152-tr2a-1-.jpg?w=220" />]]></description>
+ <description><![CDATA[Ngày 21/1, điều hành xăng thay đổi liên tục, từ tăng thuế kịch trần rồi sang hai phương án giảm giá và việc tăng thuế cũng đình lại.<br /><img src="http://imgs.vietnamnet.vn/Images/vnn/2015/01/21/18/20150121182152-tr2a-1-.jpg?w=220" />]]></description>
  <link>http://vietnamnet.vn/vn/kinh-te/217914/loan-gia-xang-vi-bo-truong-muon-giu--chu-tin-.html</link>
  <pubDate>01/22/2015 (GMT+7)</pubDate>
  <image>http://imgs.vietnamnet.vn/Images/vnn/2015/01/21/18/20150121182152-tr2a-1-.jpg</image>

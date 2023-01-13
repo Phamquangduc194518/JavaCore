@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class TestSameCharacter {
     public void test(){
-        String string ="Em den roi anh cuoi hahaha";
+        String string ="em yeu truong em";
         int count =1;
         String newS= string.replaceAll(" ","");
         System.out.println(newS);
@@ -17,16 +17,20 @@ public class TestSameCharacter {
                 if(b==d &&  d!=0){
                     c[j]=0;
                     count++;
-
                 }
             }
-        }
-
-        for(int k=0; k<newS.length();k++){
-            if(c[k]!=0){
-                System.out.println(c[k]);
+            if(c[i]!=0){
+                System.out.print(c[i] + ":");
+                System.out.println(count);
+                count = 1;
             }
         }
+
+//        for(int k=0; k<newS.length();k++){
+//            if(c[k]!=0){
+//                System.out.println(c[k]);
+//            }
+//        }
     }
 
     public void UseMap() {

@@ -54,8 +54,8 @@ public class ItemRSS {
     }
 
     public String printInfo(){
-        return "Tiêu đề:"+title+"\n"+"Tóm lược::"+summary+"\n"+
-                " Link ảnh:"+linkImage+"\n"+"Link html:"+linkHtml+"\n"+
-                "Ngày tháng:"+date+"\n"+"\n"+"--------------------------------";
+        return "Tiêu đề:"+title.trim()+"\n"+"Tóm lược::"+summary.trim()+"\n"+
+                "Link ảnh:"+linkImage.trim()+"\n"+"Link html:"+linkHtml.trim()+"\n"+
+                "Ngày tháng:"+date.trim()+"\n"+"\n"+"--------------------------------";
     }
 }
